@@ -20,6 +20,11 @@
     min-width: 100px;
     width: auto;
     height: auto;
+    transition: transform 0.2s;
+}
+
+.about-image:hover {
+    transform: scale(1.05);
 }
 
 .image {
@@ -31,9 +36,6 @@
     height: auto;
 }
 
-.image:hover {
-    transform: scale(1);
-}
 
 .tech-row {
     display: flex;

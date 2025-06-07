@@ -192,6 +192,31 @@
   <data name="tech4" xml:space="preserve">
     <value>Java</value>
   </data>
-
-
+  <data name="projectText" xml:space="preserve">
+    <value>Here are a few projects of mine</value>
+  </data>
+  <data name="project1" xml:space="preserve">
+    <value>Bingo</value>
+  </data>
+  <data name="project2" xml:space="preserve">
+    <value>TCP-Chat</value>
+  </data>
+  <data name="project3" xml:space="preserve">
+    <value>Search engine</value>
+  </data>
+  <data name="project4" xml:space="preserve">
+    <value>2D Game</value>
+  </data>
+  <data name="projectText2" xml:space="preserve">
+    <value>A bingo site with administration page, to fill in words</value>
+  </data>
+  <data name="projectText3" xml:space="preserve">
+    <value>A simple TCP chat in the console</value>
+  </data>
+  <data name="projectText4" xml:space="preserve">
+    <value>Own search engine (still in development)</value>
+  </data>
+  <data name="projectText5" xml:space="preserve">
+    <value>A 2D game made in Java</value>
+  </data>
 </root>

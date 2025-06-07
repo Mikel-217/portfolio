@@ -182,5 +182,50 @@ namespace portfolio.Ressourcen {
                 return ResourceManager.GetString("companyText", resourceCulture);
             }
         }
+        internal static string projectText {
+            get {
+                return ResourceManager.GetString("projectText", resourceCulture);
+            }
+        }
+        internal static string project1 {
+            get {
+                return ResourceManager.GetString("project1", resourceCulture);
+            }
+        }
+        internal static string project2 {
+            get {
+                return ResourceManager.GetString("project2", resourceCulture);
+            }
+        }
+        internal static string project3 {
+            get {
+                return ResourceManager.GetString("project3", resourceCulture);
+            }
+        }
+        internal static string project4 {
+            get {
+                return ResourceManager.GetString("project4", resourceCulture);
+            }
+        }
+        internal static string projectText2 {
+            get {
+                return ResourceManager.GetString("projectText2", resourceCulture);
+            }
+        }
+        internal static string projectText3 {
+            get {
+                return ResourceManager.GetString("projectText3", resourceCulture);
+            }
+        }
+        internal static string projectText4 {
+            get {
+                return ResourceManager.GetString("projectText4", resourceCulture);
+            }
+        }
+        internal static string projectText5 {
+            get {
+                return ResourceManager.GetString("projectText5", resourceCulture);
+            }
+        }
     }
 }

@@ -1,16 +1,32 @@
 ﻿@page "/"
+@rendermode InteractiveServer
+
 
 <PageTitle>@Resources.pageTitle</PageTitle>
 
-<div class="welcome-section">
-    <h1>@Ressourcen.Resources.welcome</h1>
-    <div class="about-section">
+<div class="main-page">
 
+    <div class="welcome-section">
+        <h1>
+            @Ressourcen.Resources.welcome
+            <span style="color: var(--color-accent);">Mikel!</span>
+        </h1>
+        <div class="welcome-text">
+            <p>@Ressourcen.Resources.welcomeText
+            <br>
+            @Ressourcen.Resources.welcomeText2 <a href="#about">about me</a> and my <a href="#projects">projects</a>?
+            <br>
+            @Ressourcen.Resources.welcomeText3!</p>
+        </div>
     </div>
-</div>
-<div class="skills-section">
-    <Skills />
-</div>
-<div class="project-section">
-    <Skills />
+    <div id="about" class="about-section">
+        <AboutSection />
+    </div>
+    <div id="experience" class="skills-section">
+        <Experience />
+    </div>
+    <div id="projects" class="project-section">
+        <ProjectsPage />
+    </div>
+
 </div>

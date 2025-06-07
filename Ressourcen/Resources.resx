@@ -124,15 +124,74 @@
     <value>Home</value>
   </data>
   <data name="navAbout" xml:space="preserve">
-    <value>About me</value>
+    <value>About</value>
   </data>
   <data name="navSkills" xml:space="preserve">
-    <value>Skills</value>
+    <value>Experience</value>
   </data>
   <data name="navProjects" xml:space="preserve">
     <value>Projects</value>
   </data>
-  <data name="welcome" xml:space="preserve">
-    <value>Hi, i´m Mikel</value>
+  <data name="welcomeTitle" xml:space="preserve">
+    <value>Hi, I´m</value>
   </data>
+  <data name="welcomeText" xml:space="preserve">
+    <value>I'm currently doing my apprenticeship as an IT specialist for application development. </value>
+  </data>
+  <data name="welcomeText2" xml:space="preserve">
+    <value>Would you like to find out more</value>
+  </data>
+  <data name="welcomeText3" xml:space="preserve">
+    <value>Then you've come to the right place</value>
+  </data>
+  <data name="aboutText" xml:space="preserve">
+    <value>I'm 17 years old</value>
+  </data>
+  <data name="aboutText2" xml:space="preserve">
+    <value>Currently, I work at</value>
+  </data>
+  <data name="companyText" xml:space="preserve">
+    <value>Handtmann</value>
+  </data>
+  <data name="aboutText3" xml:space="preserve">
+    <value>Things I am passionate about:</value>
+  </data>
+  <data name="passionate1" xml:space="preserve">
+    <value>Motorcycles</value>
+  </data>
+  <data name="passionate2" xml:space="preserve">
+    <value>Programming</value>
+  </data>
+  <data name="passionate3" xml:space="preserve">
+    <value>Gaming</value>
+  </data>
+  <data name="aboutText4" xml:space="preserve">
+    <value>Things I want to learn:</value>
+  </data>
+  <data name="learn1" xml:space="preserve">
+    <value>Working with Google Cloud</value>
+  </data>
+  <data name="learn2" xml:space="preserve">
+    <value>Low level programming</value>
+  </data>
+  <data name="learn3" xml:space="preserve">
+    <value>Cooking</value>
+  </data>
+  <data name="aboutText5" xml:space="preserve">
+    <value>Technologies I have worked with:</value>
+  </data>
+  <data name="tech1" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="tech2" xml:space="preserve">
+    <value>Blazor / ASP.NET Core</value>
+  </data>
+  <data name="tech3" xml:space="preserve">
+    <value>Azure</value>
+  </data>
+  <data name="tech4" xml:space="preserve">
+    <value>Java</value>
+  </data>
+
+
 </root>

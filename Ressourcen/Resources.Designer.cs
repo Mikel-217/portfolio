@@ -82,7 +82,104 @@ namespace portfolio.Ressourcen {
         }
         internal static string welcome {
             get {
-                return ResourceManager.GetString("welcome", resourceCulture);
+                return ResourceManager.GetString("welcomeTitle", resourceCulture);
+            }
+        }
+        internal static string welcomeText {
+            get {
+                return ResourceManager.GetString("welcomeText", resourceCulture);
+            }
+        }
+        internal static string welcomeText2 {
+            get {
+                return ResourceManager.GetString("welcomeText2", resourceCulture);
+            }
+        }
+        internal static string welcomeText3 {
+            get {
+                return ResourceManager.GetString("welcomeText3", resourceCulture);
+            }
+        }
+        internal static string aboutText {
+            get {
+                return ResourceManager.GetString("aboutText", resourceCulture);
+            }
+        }
+        internal static string aboutText2 {
+            get {
+                return ResourceManager.GetString("aboutText2", resourceCulture);
+            }
+        }
+        internal static string aboutText3 {
+            get {
+                return ResourceManager.GetString("aboutText3", resourceCulture);
+            }
+        }
+        internal static string passionate1 {
+            get {
+                return ResourceManager.GetString("passionate1", resourceCulture);
+            }
+        }
+        internal static string passionate2 {
+            get {
+                return ResourceManager.GetString("passionate2", resourceCulture);
+            }
+        }
+        internal static string passionate3 {
+            get {
+                return ResourceManager.GetString("passionate3", resourceCulture);
+            }
+        }
+        internal static string aboutText4 {
+            get {
+                return ResourceManager.GetString("aboutText4", resourceCulture);
+            }
+        }
+        internal static string learn {
+            get {
+                return ResourceManager.GetString("learn1", resourceCulture);
+            }
+        }
+        internal static string learn2 {
+            get {
+                return ResourceManager.GetString("learn2", resourceCulture);
+            }
+        }
+        
+        internal static string learn3 {
+            get {
+                return ResourceManager.GetString("learn3", resourceCulture);
+            }
+        }
+        internal static string aboutText5 {
+            get {
+                return ResourceManager.GetString("aboutText5", resourceCulture);
+            }
+        }
+        internal static string tech {
+            get {
+                return ResourceManager.GetString("tech1", resourceCulture);
+            }
+        }
+        internal static string tech2 {
+            get {
+                return ResourceManager.GetString("tech2", resourceCulture);
+            }
+        }
+        
+        internal static string tech3 {
+            get {
+                return ResourceManager.GetString("tech3", resourceCulture);
+            }
+        }
+        internal static string tech4 {
+            get {
+                return ResourceManager.GetString("tech4", resourceCulture);
+            }
+        }
+        internal static string companyText {
+            get {
+                return ResourceManager.GetString("companyText", resourceCulture);
             }
         }
     }

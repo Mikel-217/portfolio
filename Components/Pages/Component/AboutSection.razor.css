@@ -41,6 +41,8 @@
     gap: 50px;
 }
 
+
+
 @media(max-width: 1000px) {
     .image {
         border-radius: 16px;

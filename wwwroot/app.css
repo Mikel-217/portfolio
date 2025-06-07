@@ -33,7 +33,11 @@ a:hover {
     margin-bottom: 50px;
 }
 
-
+.socials {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+}
 
 
 @keyframes fadein {

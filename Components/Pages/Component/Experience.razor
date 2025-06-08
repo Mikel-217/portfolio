@@ -1,0 +1,52 @@
+@rendermode InteractiveServer
+
+<h3><em>@Resources.navSkills</em></h3>
+<br>
+<div class="experience">
+    <div class="selector">
+        <button class="btn-ex" @onclick="@(() => changeEx(1))">@Ressourcen.Resources.experiencebutton1</button>
+        <button class="btn-ex" @onclick="@(() => changeEx(2))">@Ressourcen.Resources.experiencebutton2</button>
+        <button class="btn-ex" @onclick="@(() => changeEx(3))">@Ressourcen.Resources.experiencebutton3</button>
+    </div>
+    <div class="experience-content" style="@(firstEx ? "display: block;" : "display: none;")">
+        <p>@Ressourcen.Resources.experiencetext1</p>
+    </div>
+    <div class="experience-content" style="@(secondEx ? "display: block;" : "display: none;")">
+        <p>@Ressourcen.Resources.experiencetext2 <a href="https://www.handtmann.com" target="_blank" style="color: var(--color-accent);">Handtmann</a></p>
+        <p>@Ressourcen.Resources.experiencetext3</p>
+    </div>
+    <div class="experience-content" style="@(thirdEx ? "display: block;" : "display: none;")">
+        <p>@Ressourcen.Resources.experiencetext4 <a href="https://www.handtmann.com" target="_blank" style="color: var(--color-accent);">Handtmann</a></p>
+    </div>
+</div>
+<br>
+
+@code {
+    private bool firstEx = true, secondEx = false, thirdEx = false;
+
+    private void changeEx(int count) {
+        switch (count) {
+            case 1:
+                firstEx = true;
+                secondEx = false;
+                thirdEx = false;
+                StateHasChanged();
+                break;
+            case 2:
+                firstEx = false;
+                secondEx = true;
+                thirdEx = false;
+                StateHasChanged();
+                break;
+            case 3:
+                firstEx = false;
+                secondEx = false;
+                thirdEx = true;
+                StateHasChanged();
+                break;
+            default:
+                break;
+        }
+        StateHasChanged();
+    }
+}

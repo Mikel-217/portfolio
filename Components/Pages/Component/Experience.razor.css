@@ -1,0 +1,35 @@
+.experience {
+    display: flex;
+    flex-direction: row;
+}
+
+.selector {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-content {
+    width: 75%;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: var(--color-box);
+    padding: 50px;
+}
+
+.btn-ex {
+    color: white;
+    padding: 20px;
+    background-color: var(--color-box);
+    border: none;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-ex:hover {
+    background-color: var(--color-accent-hover);
+}
+
+.btn-ex:active {
+    transform: translateY(1px);
+    background-color: var(--color-accent);
+}
+

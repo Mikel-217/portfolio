@@ -136,7 +136,7 @@
     <value>Hi, I´m</value>
   </data>
   <data name="welcomeText" xml:space="preserve">
-    <value>I'm currently doing my apprenticeship as an IT specialist for application development. </value>
+    <value>I'm currently doing my apprenticeship as an IT specialist for application development.</value>
   </data>
   <data name="welcomeText2" xml:space="preserve">
     <value>Would you like to find out more</value>
@@ -145,7 +145,7 @@
     <value>Then you've come to the right place</value>
   </data>
   <data name="aboutText" xml:space="preserve">
-    <value>I'm 17 years old</value>
+    <value>I am 17 years old and live in a small town in Germany</value>
   </data>
   <data name="aboutText2" xml:space="preserve">
     <value>Currently, I work at</value>
@@ -193,7 +193,7 @@
     <value>Java</value>
   </data>
   <data name="projectText" xml:space="preserve">
-    <value>Here are a few projects of mine</value>
+    <value>Here are a few projects of mine:</value>
   </data>
   <data name="project1" xml:space="preserve">
     <value>Bingo</value>
@@ -218,5 +218,26 @@
   </data>
   <data name="projectText5" xml:space="preserve">
     <value>A 2D game made in Java</value>
+  </data>
+  <data name="experiencebutton1" xml:space="preserve">
+    <value>Current</value>
+  </data>
+  <data name="experiencebutton2" xml:space="preserve">
+    <value>Training</value>
+  </data>
+  <data name="experiencebutton3" xml:space="preserve">
+    <value>Internship</value>
+  </data>
+  <data name="experiencetext1" xml:space="preserve">
+    <value>Trainee as an IT specialist for application development</value>
+  </data>
+  <data name="experiencetext2" xml:space="preserve">
+    <value>Trainee as IT specialist for application development at</value>
+  </data>
+  <data name="experiencetext3" xml:space="preserve">
+    <value>Projects: Webshop, Quiz-App, implementing features to existing apps</value>
+  </data>
+  <data name="experiencetext4" xml:space="preserve">
+    <value>As an IT-Sepcialist intern at</value>
   </data>
 </root>

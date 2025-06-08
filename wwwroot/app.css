@@ -6,6 +6,10 @@ html, body {
     color: var(--color-text-primary);
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto Mono;
+}
+
 
 a {
     color: var(--color-text-primary);
@@ -37,6 +41,10 @@ a:hover {
     gap: 20px;
     display: flex;
     flex-direction: row;
+}
+
+.socials-item:hover {
+    color: var(--color-accent);
 }
 
 
